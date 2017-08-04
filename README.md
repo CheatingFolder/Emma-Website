@@ -1,5 +1,5 @@
 # Emma-Website
-snazzyboi
+All about Me
 <br><hr><br>
-<h1>Snazzy Title for Snazzy Beans</h1>
-<p>Paragraph text is for snazzy beans at 0 kelvin so they are at their true snazziest form, absolute zero beans are the best beans.</h3>
+<h1>Me is the title bc Me is the content</h1>
+<p>Paragraph text is for Me bc again Me is the content</h3>
