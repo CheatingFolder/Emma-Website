@@ -51,10 +51,19 @@
     cursor: pointer;
     transition: 0.3s;
 	width: 25%;
-	height: 25%;
-	margin: 2% 0 2% 6%;
+	margin: 2% 0 2% 2.5%;
 }
 .myImg:hover {
+	opacity: 0.7;
+}
+.myImgP {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+	width: 11%;
+	margin: 2% 0 2% 2.5%;
+}
+.myImgP:hover {
 	opacity: 0.7;
 }
 .modal {
@@ -73,7 +82,8 @@
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: auto;
+	height: 90%;
     max-width: 700px;
 }
 #caption {
