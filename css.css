@@ -46,11 +46,19 @@
 	float: right;
 	margin: 0 3px;
 }
+#PhoBanner {
+	margin-top: 15px;
+	background-color: #D0BCFE;
+	height: 25px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 11pt;
+}
 .myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-	width: 25%;
+	width: 30%;
 	margin: 2% 0 2% 2.5%;
 }
 .myImg:hover {
@@ -60,7 +68,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-	width: 11%;
+	width: 13.2%;
 	margin: 2% 0 2% 2.5%;
 }
 .myImgP:hover {
@@ -74,7 +82,7 @@
     left: 0;
     top: 0;
     width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    height: auto; /* Don't change the aspect ratio */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
