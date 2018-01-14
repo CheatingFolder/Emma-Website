@@ -2,21 +2,29 @@
 	margin: 2px;
 }
 #body {
-	background-color: #F1ECFF;
+	*background-color: white/*#F1ECFF*/;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 #header {
 	background-color: #D0BCFE;
-	text-align: center;
-	padding: 5px;
+	padding: 10px;
+	margin-top: 5px;
+	vertical-align: middle;
 }
 #header a{
 	text-decoration: none;
 	color: black;
+	font-size: 16pt;
+	font-weight: bold;
+}
+#header img{
+	height: 30px;
 }
 #nav {
 	background-color: #D0BCFE;
 	width:100%;
 	padding: 5px;
+	margin-top: 5px;
 	text-align: center;
 	}
 #nav a {
@@ -35,14 +43,14 @@
 	text-align: justify;
 }
 #one img{
-	width: 100%;
+	width: 49%;
 }
 #social {
 	background-color: #D0BCFE;
 	padding: 7px;
 }
 #social img{
-	width: 5%;
+	width: 4%;
 	float: right;
 	margin: 0 3px;
 }
@@ -55,18 +63,19 @@
 	text-align: center;
 	font-size: 12pt;
 }
-#Year {
-	text-decoration: underline;
+#Border {
+	border-left: solid 3px #D0BCFE;
+	border-right: solid 3px #D0BCFE;
+	margin-top: 5px;
+	padding: 0;
 }
 .myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-	width: 29%;
+	width: 30%;
 	margin: 2% 0 2% 2.5%;
-	border-color: #FBF9FF;
-	border-width: 3px;
-	border-style: solid;
+	border: solid 6px #F1ECFF;
 }
 .myImg:hover {
 	opacity: 0.7;
@@ -75,11 +84,9 @@
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-	width: 12.9%;
+	width: 13.7%;
 	margin: 2% 0 2% 2.5%;
-	border-color: #FBF9FF;
-	border-width: 3px;
-	border-style: solid;
+	border: solid 6px #F1ECFF;
 }
 .myImgP:hover {
 	opacity: 0.7;
